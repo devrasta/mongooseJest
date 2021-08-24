@@ -1,0 +1,24 @@
+{
+  "name": "graphql-playground",
+  "version": "1.0.0",
+  "description": "graphql playground to master this technology",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test-coverage": "open ./coverage/lcov-report/index.html"
+  },
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^2.0.1",
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
+  }
+}
